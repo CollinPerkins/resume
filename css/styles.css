@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mainNav {
+  width: 100%;
+  height: 40px;
+  background-color: #028CD5;
+}
+
+.mainNav ul {
+  margin-top: 12px;
+  list-style: none;
+}
+
+.mainNav ul li {
+  display: inline;
+}
+
+.mainNav ul li a {
+  color: white;
+  padding: 7px 15px;
+}
+
+.mainNav ul li a:link {
+  color: white;
+}
+
+.mainNav ul li a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+}
+
+.mainHeader {
+  width: 100%;
+  min-height: 250px;
+  background-image: url(../imgs/headerBackground.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.mainHeader .overlay {
+  z-index: 0;
+  width: 100%;
+  min-height: 250px;
+  background-color: rgba(2, 140, 213, 0.1);
+}
+
+.mainHeader #titleArea {
+  width: 100%;
+  height: 100%;
+  display: inline;
+}
+
+.mainHeader #titleArea h1 {
+  margin-top: 75px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.mainHeader #titleArea h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.mainHeader img {
+  display: inline;
+}
+
+.info {
+  width: 100%;
+  background-color: #5B666C;
+  color: white;
+}
+
+.info p {
+  line-height: 25px;
+  letter-spacing: 2px;
+  padding: 40px 0;
+}
